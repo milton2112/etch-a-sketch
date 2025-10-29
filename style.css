@@ -1,0 +1,22 @@
+body {
+  background: #0e0e0e;
+  color: #f6c700;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+#container {
+  width: 960px;
+  height: 960px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #f6c700;
+}
+
+.square {
+  background-color: #1e1e1e;
+  border: 1px solid #111;
+  flex: 1 0 auto;
+}
